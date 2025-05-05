@@ -19,5 +19,3 @@ export const DarkModeProvider = ({ children }) => {
 
 export const useDarkMode = () => useContext(DarkModeContext);
 export default DarkModeProvider;
-export default DarkModeProvider;
-export default DarkModeProvider;
