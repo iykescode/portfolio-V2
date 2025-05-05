@@ -164,7 +164,7 @@ export default function Home() {
                 <p className="font-medium lg:w-[300px] md:w-[200px]">Crafting the interface and user interactions that
                   brings the website to life.</p>
                 <div
-                    className="grid grid-cols-5 lg:grid-cols-5 md:grid-cols-3 gap-4 mt-4 md:mt-16 lg:mt-10 text-5xl md:text-4xl lg:text-5xl lg:mb-8 md:mb-16 default-transition">
+                    className="grid grid-cols-3 lg:grid-cols-5 md:grid-cols-3 gap-4 mt-4 md:mt-16 lg:mt-10 text-5xl md:text-4xl lg:text-5xl lg:mb-8 md:mb-16 default-transition">
                   <BiLogoHtml5 className="text-html5
                                           dark:text-colorLight dark:hover:text-html5
                                           default-transition"/>
@@ -204,7 +204,7 @@ export default function Home() {
                 <p className="font-medium lg:w-[300px] md:w-[200px]">Building the server-side logic, databases, and APIs
                   that powers the website’s functionality behind the scenes.</p>
                 <div
-                    className="grid grid-cols-5 lg:grid-cols-5 md:grid-cols-3 gap-4 mt-4 text-5xl md:text-4xl lg:text-5xl lg:mb-8 md:mb-3 default-transition">
+                    className="grid grid-cols-3 lg:grid-cols-5 md:grid-cols-3 gap-4 mt-4 text-5xl md:text-4xl lg:text-5xl lg:mb-8 md:mb-3 default-transition">
                   <BiLogoJava className="text-java
                                           dark:text-colorLight dark:hover:text-java
                                           default-transition"/>
@@ -247,7 +247,7 @@ export default function Home() {
                 <p className="font-medium lg:w-[300px] md:w-[200px]">Creating the visual style, layout, and user
                   experience that makes the website attractive and easy to navigate.</p>
                 <div
-                    className="grid grid-cols-5 lg:grid-cols-5 md:grid-cols-3 gap-4 mt-4 lg:mt-10 text-5xl md:text-4xl lg:text-5xl lg:mb-8 md:mb-16 default-transition">
+                    className="grid grid-cols-3 lg:grid-cols-5 md:grid-cols-4 gap-4 mt-4 lg:mt-10 text-5xl md:text-4xl lg:text-5xl lg:mb-8 md:mb-16 default-transition">
                   <PiFigmaLogoFill className="text-figma
                                           dark:text-colorLight dark:hover:text-figma
                                           default-transition"/>
@@ -351,7 +351,7 @@ export default function Home() {
                 <div className="bg-colorDark rounded-t-lg">
                   <BackgroundVideo className="h-[300px] object-cover rounded-t-lg opacity-50" src={PasturePlaceGlobal}/>
                 </div>
-                <div className="p-6 h-[192px]">
+                <div className="p-6 lg:mb-0 md:mb-0 mb-14 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">WEB APPLICATION</h1>
                   <h1 className="text-xl font-bold">Pasture Place Global</h1>
                   <p className="font-medium">
@@ -391,7 +391,7 @@ export default function Home() {
                   <Image src={Rocka} alt="Project Image"
                          className="h-[300px] object-cover rounded-t-lg opacity-50"/>
                 </div>
-                <div className="p-6 h-[192px]">
+                <div className="p-6 lg:mb-0 md:mb-0 mb-14 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">FIGMA PROTOTYPE</h1>
                   <h1 className="text-xl font-bold">Rocka - Music App</h1>
                   <p className="font-medium mb-0 md:mb-0 lg:mb-6">
@@ -432,7 +432,7 @@ export default function Home() {
                 <div className="bg-colorDark rounded-t-lg">
                   <BackgroundVideo className="h-[300px] object-cover rounded-t-lg opacity-50" src={Portfolio}/>
                 </div>
-                <div className="p-6 h-[192px]">
+                <div className="p-6 lg:mb-0 md:mb-0 mb-0 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">FIGMA PROTOTYPE</h1>
                   <h1 className="text-xl font-bold">Portfolio V2</h1>
                   <p className="font-medium mb-0 md:mb-6 lg:mb-6">
@@ -473,7 +473,7 @@ export default function Home() {
                   <Image src={MikeyBloggingWebApp} alt="Project Image"
                          className="h-[300px] object-cover rounded-t-lg opacity-50"/>
                 </div>
-                <div className="p-6 h-[192px]">
+                <div className="p-6 lg:mb-0 md:mb-0 mb-14 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">WEB APPLICATION</h1>
                   <h1 className="text-xl font-bold">Blogging Web App</h1>
                   <p className="font-medium">
@@ -504,7 +504,7 @@ export default function Home() {
                 <div className="bg-colorDark rounded-t-lg">
                   <BackgroundVideo className="h-[300px] object-cover rounded-t-lg opacity-50" src={VleetzShopping}/>
                 </div>
-                <div className="p-6 h-[192px]">
+                <div className="p-6 lg:mb-0 md:mb-0 mb-8 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">FIGMA PROTOTYPE</h1>
                   <h1 className="text-xl font-bold">Vleetz Shopping</h1>
                   <p className="font-medium">
@@ -544,7 +544,7 @@ export default function Home() {
                 <div className="bg-colorDark rounded-t-lg">
                   <BackgroundVideo className="h-[300px] object-cover rounded-t-lg opacity-50" src={VleetzGame}/>
                 </div>
-                <div className="p-6 h-[192px]">
+                <div className="p-6 lg:mb-0 md:mb-0 mb-8 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">FIGMA PROTOTYPE</h1>
                   <h1 className="text-xl font-bold">Vleetz Quiz Game</h1>
                   <p className="font-medium">
@@ -587,7 +587,7 @@ export default function Home() {
                   <Image src={VleetzAccomodation} alt="Project Image"
                          className="h-[300px] object-cover rounded-t-lg opacity-50"/>
                 </div>
-                <div className="p-6 h-[192px]">
+                <div className="p-6 lg:mb-0 md:mb-0 mb-20 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">FIGMA PROTOTYPE</h1>
                   <h1 className="text-xl font-bold">Vleetz Accommodation</h1>
                   <p className="font-medium">
@@ -628,7 +628,7 @@ export default function Home() {
                 <div className="bg-colorDark rounded-t-lg">
                   <BackgroundVideo className="h-[300px] object-cover rounded-t-lg opacity-50" src={VleetzGiveawayy}/>
                 </div>
-                <div className="p-6 h-[192px]">
+                <div className="p-6 lg:mb-0 md:mb-0 mb-14 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">FIGMA PROTOTYPE</h1>
                   <h1 className="text-xl font-bold">Vleetz Giveaway V2</h1>
                   <p className="font-medium">
@@ -670,7 +670,7 @@ export default function Home() {
                   <Image src={VleetzGiveaway} alt="Project Image"
                          className="h-[300px] object-cover rounded-t-lg opacity-50"/>
                 </div>
-                <div className="p-6 h-[192px]">
+                <div className="p-6 lg:mb-0 md:mb-0 mb-14 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">FIGMA PROTOTYPE</h1>
                   <h1 className="text-xl font-bold">Vleetz Giveaway V1</h1>
                   <p className="font-medium">
