@@ -351,7 +351,7 @@ export default function Home() {
                 <div className="bg-colorDark rounded-t-lg">
                   <BackgroundVideo className="h-[300px] object-cover rounded-t-lg opacity-50" src={PasturePlaceGlobal}/>
                 </div>
-                <div className="p-6 lg:mb-0 md:mb-0 mb-24 h-[192px]">
+                <div className="p-6 lg:mb-0 md:mb-0 mb-20 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">WEB APPLICATION</h1>
                   <h1 className="text-xl font-bold">Pasture Place Global</h1>
                   <p className="font-medium">
