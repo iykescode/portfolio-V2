@@ -13,18 +13,6 @@ import { RiNextjsFill, RiMailSendLine } from "react-icons/ri";
 import { SiMysql, SiAdobe, SiCoreldraw, SiVisualstudiocode, SiJetbrains, SiEclipseide, SiPostman } from "react-icons/si";
 import { PiFigmaLogoFill, PiLinktreeLogoBold } from "react-icons/pi";
 
-// Imported images
-import HeroImage from "../public/backgrounds/bg.png";
-import Frontend from "../public/icons/frontend.png";
-import Backend from "../public/icons/backend.png";
-import Design from "../public/icons/design.png";
-import Mikey from "../public/images/Mikey.JPG";
-import Mikeey from "../public/images/Mikeey.JPEG";
-import MikeyBloggingWebApp from "../public/images/mikey-blogging-webapp-image.png";
-import InfinityDeAutoTransit from "../public/images/infinitydeautotransit.png";
-import TheWildOasisBackend from "../public/images/the-wild-oasis-backend.png";
-import Portfolio from "../public/images/portfolio.png";
-
 import Image from "next/image";
 
 import Typed from "typed.js";
@@ -97,11 +85,11 @@ export default function Home() {
       <main
           className="px-20 py-10 lg:px-40 md:px-20 main default-transition"> {/* Add padding-top to account for fixed navbar */}
         <section id="home" className="min-h-screen flex items-center justify-center">
-          <Image src={HeroImage} alt="HeroImage"
-                 className="absolute default-transition"/>
+          <img src="./backgrounds/bg.png" alt="HeroImage"
+                 className="absolute default-transition" />
           <div className="relative">
             <div className="flex flex-col lg:flex-row lg:items-center md:items-center lg:gap-x-36 md:gap-x-20">
-              <Image src={Mikey} alt="Mikey Image"
+              <img src="./images/Mikey.JPG" alt="Mikey Image"
                      className="w-48 h-48 md:w-64 md:h-64 lg:w-96 lg:h-96
                                 object-cover rounded-full overflow-hidden
                                 border-primaryColor dark:border-colorLight
@@ -144,7 +132,7 @@ export default function Home() {
             <div
                 className="relative p-0.5 bg-gradient-to-b dark:from-colorLight dark:to-primaryColor from-colorDark to-primaryColor rounded-lg mb-10">
               <div className="bg-colorLight dark:bg-colorDark rounded-lg p-6">
-                <Image src={Frontend} alt="Frontend Image"
+                <img src="./icons/frontend.png" alt="Frontend Image"
                        className="w-24 h-24 border-4 border-dashed border-colorDark dark:border-colorLight rounded-full opacity-50 mt-4 mb-8 default-transition"/>
                 <h1 className="text-xl font-bold text-primaryColor">Frontend</h1>
                 <p className="font-medium lg:w-[300px] md:w-[200px]">Crafting the interface and user interactions that
@@ -181,7 +169,7 @@ export default function Home() {
             <div
                 className="relative p-0.5 bg-gradient-to-b dark:from-colorLight dark:to-primaryColor from-colorDark to-primaryColor rounded-lg mb-10">
               <div className="bg-colorLight dark:bg-colorDark rounded-lg p-6">
-                <Image src={Backend} alt="Backend Image"
+                <img src="./icons/backend.png" alt="Backend Image"
                        className="w-24 h-24 border-4 border-dashed border-colorDark dark:border-colorLight rounded-full opacity-50 mt-4 mb-8 default-transition"/>
                 <h1 className="text-xl font-bold text-primaryColor">Backend</h1>
                 <p className="font-medium lg:w-[300px] md:w-[200px]">Building the server-side logic, databases, and APIs
@@ -224,7 +212,7 @@ export default function Home() {
             <div
                 className="relative p-0.5 bg-gradient-to-b dark:from-colorLight dark:to-primaryColor from-colorDark to-primaryColor rounded-lg mb-10">
               <div className="bg-colorLight dark:bg-colorDark rounded-lg p-6">
-                <Image src={Design} alt="Design Image"
+                <img src="./icons/design.png" alt="Design Image"
                        className="w-24 h-24 border-4 border-dashed border-colorDark dark:border-colorLight rounded-full opacity-50 mt-4 mb-8 default-transition"/>
                 <h1 className="text-xl font-bold text-primaryColor">Design & Tools</h1>
                 <p className="font-medium lg:w-[300px] md:w-[200px]">Creating the visual style, layout, and user
@@ -262,7 +250,7 @@ export default function Home() {
             <div
                 className="relative p-0.5 bg-gradient-to-b dark:from-colorLight dark:to-primaryColor from-colorDark to-primaryColor rounded-lg mb-10">
               <div className="bg-colorLight dark:bg-colorDark rounded-lg overflow-hidden">
-                <Image src={Mikeey} alt="Frontend Image"
+                <img src="./images/Mikeey.JPEG" alt="Frontend Image"
                        className="object-cover w-[390px] h-[370px] lg:w-[480px] lg:h-[480px] md:w-[420px] md:h-[420px] default-transition"/>
               </div>
             </div>
@@ -313,7 +301,7 @@ export default function Home() {
                           ">
               <div className="bg-colorLight dark:bg-colorDark rounded-lg">
                 <div className="bg-colorDark rounded-t-lg">
-                  <Image className="h-[300px] object-cover rounded-t-lg opacity-50" alt="Project Image" src={InfinityDeAutoTransit}/>
+                  <img className="h-[300px] w-full object-cover rounded-t-lg opacity-50" alt="Project Image" src="./images/infinitydeautotransit.png"/>
                 </div>
                 <div className="p-6 lg:mb-0 md:mb-0 mb-20 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">WEB APPLICATION</h1>
@@ -351,8 +339,8 @@ export default function Home() {
                           ">
               <div className="bg-colorLight dark:bg-colorDark rounded-lg">
                 <div className="bg-colorDark rounded-t-lg">
-                  <Image src={TheWildOasisBackend} alt="Project Image"
-                         className="h-[300px] object-cover rounded-t-lg opacity-50"/>
+                  <img src="./images/the-wild-oasis-backend.png" alt="Project Image"
+                         className="h-[300px] w-full object-cover rounded-t-lg opacity-50"/>
                 </div>
                 <div className="p-6 lg:mb-0 md:mb-0 mb-14 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">WEB APPLICATION</h1>
@@ -392,7 +380,7 @@ export default function Home() {
                           ">
               <div className="bg-colorLight dark:bg-colorDark rounded-lg">
                 <div className="bg-colorDark rounded-t-lg">
-                  <Image alt="Project Image" className="h-[300px] object-cover rounded-t-lg opacity-50" src={Portfolio}/>
+                  <img alt="Project Image" className="h-[300px] w-full object-cover rounded-t-lg opacity-50" src="./images/portfolio.png"/>
                 </div>
                 <div className="p-6 lg:mb-0 md:mb-0 mb-0 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">FIGMA PROTOTYPE</h1>
@@ -432,8 +420,8 @@ export default function Home() {
                           ">
               <div className="bg-colorLight dark:bg-colorDark rounded-lg">
                 <div className="bg-colorDark rounded-t-lg">
-                  <Image src={MikeyBloggingWebApp} alt="Project Image"
-                         className="h-[300px] object-cover rounded-t-lg opacity-50"/>
+                  <img src="./images/mikey-blogging-webapp-image.png" alt="Project Image"
+                         className="h-[300px] w-full object-cover rounded-t-lg opacity-50"/>
                 </div>
                 <div className="p-6 lg:mb-0 md:mb-0 mb-14 h-[192px]">
                   <h1 className="text-sm font-black text-primaryColor">WEB APPLICATION</h1>
