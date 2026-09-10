@@ -269,7 +269,7 @@ export default function Home() {
             <div>
               <h1 className="text-4xl font-bold">About Me</h1>
               <p className="text-md font-medium lg:w-[500px] mt-6">
-                Full-Stack Software Engineer with 6+ years of combined software and web development experience, specializing in React.js, Next.js, TypeScript, and JavaScript. Experienced in Java/Spring Boot, APIs, databases, and building production applications including booking platforms, live trip tracking, operational dashboards, and business tools. Entrepreneurial and highly driven, with a strong ownership mindset and a track record of turning ideas into working products. Known for taking initiative, solving problems, contributing ideas beyond assigned responsibilities, and continuously looking for ways to improve both the product and the team around me.
+                Full-Stack Software Engineer with 6+ years of combined software and web development experience, specializing in React.js, Next.js, TypeScript, JavaScript, Redux, and modern frontend development. Experienced in building full-stack applications, integrating APIs and databases, managing complex application state, and creating responsive, user-focused interfaces. Highly driven and entrepreneurial, with a strong ownership mindset and a passion for turning ideas into working products. Known for taking initiative, solving problems, contributing ideas, and continuously looking for ways to improve products, processes, and the teams I work with.
               </p>
               <div className="mt-10 lg:flex md:flex lg:gap-5 md:gap-2 lg:mt-5 md:mt-3">
                 <a href="mailto:hello@iykescode.com" target="_blank"
