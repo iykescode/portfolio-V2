@@ -1,5 +1,4 @@
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillMail, AiFillYoutube } from "react-icons/ai";
-import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -19,11 +18,6 @@ const Footer = () => {
                                className="hover:text-colorLight hover:border-primaryColor hover:bg-primaryColor border-gray-400 border-4 opacity-80 p-1 rounded-full default-transition"
                                aria-label="Instagram">
                                 <AiFillInstagram/>
-                            </a>
-                            <a href="https://x.com/michael_chukss" target="_blank"
-                               className="hover:text-colorLight hover:border-primaryColor hover:bg-primaryColor border-gray-400 border-4 opacity-80 p-1 rounded-full default-transition"
-                               aria-label="X">
-                                <FaXTwitter/>
                             </a>
                             <a href="https://www.github.com/iykescode" target="_blank"
                                className="hover:text-colorLight hover:border-primaryColor hover:bg-primaryColor border-gray-400 border-4 opacity-80 p-1 rounded-full default-transition"
@@ -61,11 +55,6 @@ const Footer = () => {
                            className="hover:text-colorLight hover:border-primaryColor hover:bg-primaryColor border-gray-400 border-4 opacity-80 p-1 rounded-full default-transition"
                            aria-label="Instagram">
                             <AiFillInstagram/>
-                        </a>
-                        <a href="https://x.com/michael_chukss" target="_blank"
-                           className="hover:text-colorLight hover:border-primaryColor hover:bg-primaryColor border-gray-400 border-4 opacity-80 p-1 rounded-full default-transition"
-                           aria-label="X">
-                            <FaXTwitter/>
                         </a>
                         <a href="https://www.github.com/iykescode" target="_blank"
                            className="hover:text-colorLight hover:border-primaryColor hover:bg-primaryColor border-gray-400 border-4 opacity-80 p-1 rounded-full default-transition"
