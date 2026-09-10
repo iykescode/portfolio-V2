@@ -10,7 +10,16 @@ import { BiLogoHtml5, BiLogoCss3, BiLogoBootstrap, BiLogoJavascript, BiLogoJquer
             BiLogoNodejs, BiLogoAws, BiLogoDocker, BiLogoKubernetes, BiLogoMongodb,
               BiLogoPostgresql } from "react-icons/bi";
 import { RiNextjsFill, RiMailSendLine } from "react-icons/ri";
-import { SiMysql, SiAdobe, SiCoreldraw, SiVisualstudiocode, SiJetbrains, SiEclipseide, SiPostman } from "react-icons/si";
+import {
+  SiMysql,
+  SiAdobe,
+  SiCoreldraw,
+  SiVisualstudiocode,
+  SiJetbrains,
+  SiEclipseide,
+  SiPostman,
+  SiOpenai
+} from "react-icons/si";
 import { PiFigmaLogoFill, PiLinktreeLogoBold } from "react-icons/pi";
 
 import Image from "next/image";
@@ -45,20 +54,20 @@ export default function Home() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <title>Michael Chuks - Portfolio - React / Next.js Developer | Software Engineer</title>
+        <title>Michael Chuks - Portfolio - Full-Stack Software Engineer</title>
 
         <meta name="keywords" content="Iykescode, Ikechukwu Michael Chuks, Ikechukwu, Michael,
-                                        Chuks, Java, Spring Boot, Development, Software, React.js, Next.js, Engineer, UI/UX, Devops"/>
-        <meta name="description" content="Michael Chuks | Portfolio | React / Next.js Developer | Software Engineer"/>
+                                        Chuks, Java, Full-Stack, Spring Boot, Development, Software, React.js, Next.js, Engineer, UI/UX, Devops"/>
+        <meta name="description" content="Michael Chuks | Portfolio | Full-Stack Software Engineer"/>
         <meta name="theme-color" content="#C53FD2"/>
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.iykescode.com" />
-        <meta property="og:title" content="Michael Chuks | Portfolio | React / Next.js Developer | Software Engineer" />
+        <meta property="og:title" content="Michael Chuks | Portfolio | Full-Stack Software Engineer" />
         <meta
             property="og:description"
-            content="Michael Chuks, React.js and Next.js Developer with 6+ years of software and web development experience. Explore my projects, skills, and portfolio."
+            content="Michael Chuks, Full-Stack Software Engineer with 6+ years of software and web development experience. Explore my projects, skills, and portfolio."
         />
         <meta
             property="og:image"
@@ -68,10 +77,10 @@ export default function Home() {
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.iykescode.com" />
-        <meta property="twitter:title" content="Michael Chuks | Portfolio | Java Developer" />
+        <meta property="twitter:title" content="Michael Chuks | Portfolio | Full-Stack Software Engineer" />
         <meta
             property="twitter:description"
-            content="Michael Chuks, React.js and Next.js Developer with 6+ years of software and web development experience. Explore my projects, skills, and portfolio."
+            content="Michael Chuks, Full-Stack Software Engineer with 6+ years of software and web development experience. Explore my projects, skills, and portfolio."
         />
         <meta
             property="twitter:image"
@@ -103,7 +112,7 @@ export default function Home() {
                   I'm a <span ref={typedRef}></span>
                 </h1>
                 <p className="mt-4 text-lg font-medium">
-                  React.js and Next.js developer turning ideas into intuitive websites and practical web applications. Explore my work below, and let’s build something together.
+                  Full-Stack Software Engineer turning ideas into intuitive websites and practical web applications. Explore my work below, and let’s build something together.
                 </p>
                 <a href="#footer">
                   <button className="text-lg font-bold
@@ -122,7 +131,7 @@ export default function Home() {
           <div className="text-left lg:text-left mt-6 md:mt-10 lg:mt-0 w-full">
             <h1 className="text-3xl pb-3 lg:text-4xl lg:pb-5 font-bold">Services</h1>
             <p className="text-md font-medium">
-              I’m a React.js and Next.js developer with 6+ years of combined software and web development experience. I work with teams to turn ideas into practical web applications, from modernizing existing websites to building booking platforms and interactive dashboard.
+              I’m a Full-Stack Software Engineer with 6+ years of combined software and web development experience. I work with teams to turn ideas into practical web applications, from modernizing existing websites to building booking platforms and interactive dashboard.
             </p>
             <p className="mt-4 text-md font-medium">
               My work brings together frontend development, thoughtful interface design, and backend integration to create experiences that are intuitive to use and straightforward to maintain.
@@ -240,6 +249,9 @@ export default function Home() {
                   <SiPostman className="text-postman
                                           dark:text-colorLight dark:hover:text-postman
                                           default-transition"/>
+                  <SiOpenai className="text-chatgpt
+                                          dark:text-colorLight dark:hover:text-chatgpt
+                                          default-transition"/>
                 </div>
               </div>
             </div>
@@ -257,7 +269,7 @@ export default function Home() {
             <div>
               <h1 className="text-4xl font-bold">About Me</h1>
               <p className="text-md font-medium lg:w-[500px] mt-6">
-                React.js and Next.js Developer with 6+ years of combined software and web development experience. Specializes in TypeScript and JavaScript applications, with experience migrating websites to React.js / Next.js. Brings Next.js, Java/Spring Boot backend expertise to frontend development, connecting interfaces, APIs, and databases to deliver booking platforms, live trip tracking, and operational dashboards.
+                Full-Stack Software Engineer with 6+ years of combined software and web development experience, specializing in React.js, Next.js, TypeScript, and JavaScript. Experienced in Java/Spring Boot, APIs, databases, and building production applications including booking platforms, live trip tracking, operational dashboards, and business tools. Entrepreneurial and highly driven, with a strong ownership mindset and a track record of turning ideas into working products. Known for taking initiative, solving problems, contributing ideas beyond assigned responsibilities, and continuously looking for ways to improve both the product and the team around me.
               </p>
               <div className="mt-10 lg:flex md:flex lg:gap-5 md:gap-2 lg:mt-5 md:mt-3">
                 <a href="mailto:hello@iykescode.com" target="_blank"
@@ -286,7 +298,7 @@ export default function Home() {
           <div className="text-left lg:text-left mt-24 md:mt-10 lg:mt-0 w-full">
             <h1 className="text-3xl pb-3 lg:text-4xl lg:pb-5 font-bold">Projects</h1>
             <p className="text-md font-medium">
-              I’m a React.js and Next.js developer with 6+ years of combined software and web development experience. I work with teams to turn ideas into practical web applications, from modernizing existing websites to building booking platforms and interactive dashboard.
+              I’m a Full-Stack Software Engineer with 6+ years of combined software and web development experience. I work with teams to turn ideas into practical web applications, from modernizing existing websites to building booking platforms and interactive dashboard.
             </p>
             <p className="mt-4 text-md font-medium">
               My work brings together frontend development, thoughtful interface design, and backend integration to create experiences that are intuitive to use and straightforward to maintain.
